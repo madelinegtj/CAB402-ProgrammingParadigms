@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <RunWorkingDirectory>$(MSBuildThisFileDirectory)</RunWorkingDirectory>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Types.fs" />
+    <Compile Include="IO.fs" />
+    <Compile Include="HelpersFunctions.fs" />
+    <Compile Include="Attention.fs" />
+    <Compile Include="Transformer.fs" />
+    <Compile Include="Decoders.fs" />
+    <Compile Include="Main.fs" />
+  </ItemGroup>
+
+</Project>

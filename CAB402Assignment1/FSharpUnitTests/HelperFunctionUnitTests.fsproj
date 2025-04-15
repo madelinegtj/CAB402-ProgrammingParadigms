@@ -1,0 +1,39 @@
+﻿<Project Sdk="MSTest.Sdk/3.6.1">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <!--
+      Displays error on console in addition to the log file. Note that this feature comes with a performance impact.
+      For more information, visit https://learn.microsoft.com/dotnet/core/testing/unit-testing-platform-integration-dotnet-test#show-failure-per-test
+      -->
+    <TestingPlatformShowTestsFailure>true</TestingPlatformShowTestsFailure>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="MSTestSettings.fs" />
+    <Compile Include="MatrixMultiplyTests.fs" />
+    <Compile Include="AddTests.fs" />
+    <Compile Include="ElementWiseMultiplyTests.fs" />
+    <Compile Include="RootMeanSquareNormalizeTests.fs" />
+    <Compile Include="SoftMaxTests.fs" />
+    <Compile Include="SigmoidActivationTests.fs" />
+    <Compile Include="ReshapeToMultiHeadTests.fs" />
+    <Compile Include="FlattenMultipleHeadsTests.fs" />
+    <Compile Include="ToComplexTests.fs" />
+    <Compile Include="FlattenComplexTests.fs" />
+    <Compile Include="RotateOneHeadTests.fs" />
+    <Compile Include="RotateVectorTests.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MathNet.Numerics" Version="6.0.0-beta1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FSharpTransformer\FSharpTransformer.fsproj" />
+  </ItemGroup>
+
+</Project>
