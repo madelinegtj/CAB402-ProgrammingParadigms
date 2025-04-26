@@ -1,8 +1,0 @@
-{
-  "profiles": {
-    "FSharpUnitTests": {
-      "commandName": "Project",
-      "workingDirectory": ".."
-    }
-  }
-}
