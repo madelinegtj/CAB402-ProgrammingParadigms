@@ -15,11 +15,6 @@ Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "TransformerTests", "Transfo
 EndProject
 Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "FSharpTransformer_Impure", "FSharpTransformer_Impure\FSharpTransformer_Impure.fsproj", "{6F49AECB-4B26-4457-99DE-C3EA9ED4D465}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E7438146-5BA2-472C-9119-5D5208435F49}"
-	ProjectSection(SolutionItems) = preProject
-		.gitignore = .gitignore
-	EndProjectSection
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
