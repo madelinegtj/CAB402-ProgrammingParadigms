@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Transformer": {
+      "commandName": "Project",
+      "workingDirectory": ".."
+    }
+  }
+}
